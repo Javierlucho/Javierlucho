@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clasificación de Animales</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f4f4f4;
+  }
+  .animal-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  h2 {
+    margin-top: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="animal-box">
+    <h2>Mamíferos</h2>
+    <ul>
+      <li>Perro</li>
+      <li>Gato</li>
+      <li>Elefante</li>
+      <li>León</li>
+    </ul>
+  </div>
+  
+  <div class="animal-box">
+    <h2>Aves</h2>
+    <ul>
+      <li>Aguila</li>
+      <li>Canario</li>
+      <li>Pato</li>
+      <li>Pingüino</li>
+    </ul>
+  </div>
+  
+  <div class="animal-box">
+    <h2>Reptiles</h2>
+    <ul>
+      <li>Serpiente</li>
+      <li>Tortuga</li>
+      <li>Cocodrilo</li>
+      <li>Camaleón</li>
+    </ul>
+  </div>
+  
+  <div class="animal-box">
+    <h2>Peces</h2>
+    <ul>
+      <li>Pez payaso</li>
+      <li>Salmón</li>
+      <li>Pez globo</li>
+      <li>Tiburón</li>
+    </ul>
+  </div>
+</body>
+</html>
 
